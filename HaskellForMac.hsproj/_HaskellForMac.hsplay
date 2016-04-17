@@ -1,0 +1,21 @@
+-- Haskell Playground 1.0
+divide 5 10
+divide 5 8 
+divide 3 10
+
+
+repeatN 4 5
+
+
+suffixes "Hello"
+
+
+allSquare [1..10]
+
+
+allToUpper "i love you"
+
+
+
+
+extractDigits "das43 dffe 23 5 def45"

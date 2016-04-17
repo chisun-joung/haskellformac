@@ -1,0 +1,44 @@
+-- Haskell Playground 1.0
+inc 41
+
+exclaim "Haskell"
+
+average 10.0 20.0
+it
+
+let sum :: Num a => [a] -> a
+    sum = foldl (+) 0 
+sum [1..10] :: Int
+
+let incList = map (+1)
+
+incList [1..5]
+
+length("Hello " ++ "World!")
+
+show False
+show 123
+show "False"
+
+div 100 2
+mod 99 3
+
+showResult 123
+
+inc (square 5)
+
+square (inc 5)
+
+average (inc 3) (inc 5)
+
+showAreaOfCircle 12.3
+
+signum' 7
+
+
+startPoint = (0, 0, "black")
+
+
+-- Whatever you print goes
+-- to the console below.
+putStrLn (exclaim "Welcome to Haskell")

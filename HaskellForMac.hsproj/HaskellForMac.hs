@@ -25,3 +25,10 @@ extractDigits ( chr : restString)
   | isDigit chr = chr : extractDigits restString
   | otherwise = extractDigits restString
 
+minList :: [Int] -> Int
+minList [] = maxBound
+minList (x:xs) = x `min` minList xs
+
+reverse' :: [a] -> [a]
+reverse' [] = []
+reverse' (x:xs) = reverse' xs ++ [x]

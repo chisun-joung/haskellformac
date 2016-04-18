@@ -19,3 +19,16 @@ allToUpper "i love you"
 
 
 extractDigits "das43 dffe 23 5 def45"
+
+reverse "Hello"
+
+maxBound
+
+
+minList [3,6,1,7,4,9]
+minList [3,4]
+minList [4,3]
+minList [3]
+minList []
+
+reverse' "Hello"
